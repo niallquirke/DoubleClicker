@@ -25,7 +25,7 @@ setTimeout(() => {
 				var evt = new MouseEvent(e.type,e);
 				e.preventDefault();
 				e.stopPropagation();           
-				tid = setTimeout(() => e.target.dispatchEvent(evt), 250);
+				tid = setTimeout(() => e.target.dispatchEvent(evt), 300);
 			}
 		}
 		if (e.detail == 2 && _last == e.target) {

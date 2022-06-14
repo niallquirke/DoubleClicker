@@ -5,7 +5,7 @@
 		"matches": [ "http://*/*", "https://*/*", "ftp://*/*" ],
 		"run_at": "document_start"
 	} ],
-	"description": "Double Click to open link in new tab.",
+	"description": "Double click to open link in new tab.",
 	"icons": {
 		"128": "icons/icon_128.png",
 		"32": "icons/icon_32.png",
@@ -13,8 +13,8 @@
 	},
 	"manifest_version": 2,
 	"name": "DoubleClicker",
-	"short_name": "Double Click New Tab",
+	"short_name": "DoubleClicker",
 	"options_page": "options_page/options.html",
-	"permissions": ["tabs", "storage"],
-	"version": "1.68"
+	"permissions": ["storage"],
+	"version": "1.70"
 }
