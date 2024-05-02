@@ -18,5 +18,5 @@
   "short_name": "DoubleClicker",
   "options_page": "options_page/options.html",
   "permissions": ["storage"],
-  "version": "1.70"
+  "version": "2"
 }
